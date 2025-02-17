@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: #dadada;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.box-1 span{
+    border: 0 solid #2ecc71;
+    border-radius: 8px;
+    flex: 1;
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+    background-color: #2ecc71;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.box-2 span{
+    border: 0 solid #2ecc71;
+    border-radius: 8px;
+    flex: 1;
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+    background-color: #2ecc71;
+}
